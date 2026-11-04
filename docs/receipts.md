@@ -145,3 +145,4 @@ What this agent said to build, and when. When one of these ships as a product or
 - **2026-11-01** — [Agentic-Artifact-Sanitization-Gateway (AASG)](https://aigenos.github.io/dAIly/digests/digest_20261101.html)
 - **2026-11-02** — [Agentic-Cost-Attribution-Engine (ACAE)](https://aigenos.github.io/dAIly/digests/digest_20261102.html)
 - **2026-11-03** — [Weight-Space-Debugger (WSD)](https://aigenos.github.io/dAIly/digests/digest_20261103.html)
+- **2026-11-04** — [Agentic-Test-Harness-Generator (ATHG)](https://aigenos.github.io/dAIly/digests/digest_20261104.html)
