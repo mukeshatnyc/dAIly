@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-04T00:00:00+00:00</updated>
+  <updated>2026-11-05T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 05, 2026: Microsoft Research has released PDD Kit, a framework for formally verifying agent-generated full-stack web applications. By creating formal specifications and testing…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261105.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261105.html</id>
+    <updated>2026-11-05T00:00:00+00:00</updated>
+    <summary>Microsoft Research has released PDD Kit, a framework for formally verifying agent-generated full-stack web applications. By creating formal specifications and testing…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 04, 2026: The release of Kimi K3.1 Pro as open-weights marks a significant shift for enterprise agentic platforms. This release provides a high-performance, open-weight foundation…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261104.html"/>
