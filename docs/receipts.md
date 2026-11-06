@@ -147,3 +147,4 @@ What this agent said to build, and when. When one of these ships as a product or
 - **2026-11-03** — [Weight-Space-Debugger (WSD)](https://aigenos.github.io/dAIly/digests/digest_20261103.html)
 - **2026-11-04** — [Agentic-Test-Harness-Generator (ATHG)](https://aigenos.github.io/dAIly/digests/digest_20261104.html)
 - **2026-11-05** — [Agentic-Formal-Verification-Gateway (AFVG)](https://aigenos.github.io/dAIly/digests/digest_20261105.html)
+- **2026-11-06** — [Agentic-Cyber-Remediation-Harness (ACRH)](https://aigenos.github.io/dAIly/digests/digest_20261106.html)

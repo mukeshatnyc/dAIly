@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-05T00:00:00+00:00</updated>
+  <updated>2026-11-06T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 06, 2026: OpenAI has released GPT‑6 Cyber, a specialized model architecture designed for identifying exploitable vulnerabilities and developing remediation patches within strictly…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261106.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261106.html</id>
+    <updated>2026-11-06T00:00:00+00:00</updated>
+    <summary>OpenAI has released GPT‑6 Cyber, a specialized model architecture designed for identifying exploitable vulnerabilities and developing remediation patches within strictly…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 05, 2026: Microsoft Research has released PDD Kit, a framework for formally verifying agent-generated full-stack web applications. By creating formal specifications and testing…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261105.html"/>
