@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-06T00:00:00+00:00</updated>
+  <updated>2026-11-07T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 07, 2026: OpenAI has released BioBasicsBench, a 100-task benchmark designed to evaluate how AI agents interpret raw experimental data and execute workflows in wet-lab…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261107.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261107.html</id>
+    <updated>2026-11-07T00:00:00+00:00</updated>
+    <summary>OpenAI has released BioBasicsBench, a 100-task benchmark designed to evaluate how AI agents interpret raw experimental data and execute workflows in wet-lab…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 06, 2026: OpenAI has released GPT‑6 Cyber, a specialized model architecture designed for identifying exploitable vulnerabilities and developing remediation patches within strictly…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261106.html"/>
