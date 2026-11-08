@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-07T00:00:00+00:00</updated>
+  <updated>2026-11-08T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 08, 2026: The discussion around an Open Agent Memory Format (OAMF) by LoreKit highlights a push for a standardized, vendor-agnostic specification for agent memory persistence. By…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261108.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261108.html</id>
+    <updated>2026-11-08T00:00:00+00:00</updated>
+    <summary>The discussion around an Open Agent Memory Format (OAMF) by LoreKit highlights a push for a standardized, vendor-agnostic specification for agent memory persistence. By…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 07, 2026: OpenAI has released BioBasicsBench, a 100-task benchmark designed to evaluate how AI agents interpret raw experimental data and execute workflows in wet-lab…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261107.html"/>
