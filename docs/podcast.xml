@@ -8,6 +8,13 @@
   <itunes:image href="https://aigenos.github.io/dAIly/assets/aigenos-logo-light.png"/>
   <itunes:explicit>false</itunes:explicit>
   <item>
+    <title>dAIly — November 09, 2026</title>
+    <description>The day's AI briefing, spoken: The Pulse and the Opportunity of the Day.</description>
+    <enclosure url="https://aigenos.github.io/dAIly/audio/digest_20261109.mp3" length="2489280" type="audio/mpeg"/>
+    <guid>https://aigenos.github.io/dAIly/audio/digest_20261109.mp3</guid>
+    <pubDate>Mon, 09 Nov 2026 10:00:00 +0000</pubDate>
+  </item>
+  <item>
     <title>dAIly — November 08, 2026</title>
     <description>The day's AI briefing, spoken: The Pulse and the Opportunity of the Day.</description>
     <enclosure url="https://aigenos.github.io/dAIly/audio/digest_20261108.mp3" length="2243904" type="audio/mpeg"/>
@@ -209,13 +216,6 @@
     <enclosure url="https://aigenos.github.io/dAIly/audio/digest_20261011.mp3" length="2321472" type="audio/mpeg"/>
     <guid>https://aigenos.github.io/dAIly/audio/digest_20261011.mp3</guid>
     <pubDate>Sun, 11 Oct 2026 10:00:00 +0000</pubDate>
-  </item>
-  <item>
-    <title>dAIly — October 10, 2026</title>
-    <description>The day's AI briefing, spoken: The Pulse and the Opportunity of the Day.</description>
-    <enclosure url="https://aigenos.github.io/dAIly/audio/digest_20261010.mp3" length="2800128" type="audio/mpeg"/>
-    <guid>https://aigenos.github.io/dAIly/audio/digest_20261010.mp3</guid>
-    <pubDate>Sat, 10 Oct 2026 10:00:00 +0000</pubDate>
   </item>
 </channel>
 </rss>
