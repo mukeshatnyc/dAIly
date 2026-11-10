@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-09T00:00:00+00:00</updated>
+  <updated>2026-11-10T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 10, 2026: Google DeepMind has introduced AlphaProof Code, a breakthrough in verifying complex software at depth using the Lean theorem prover. By generating over six million lines…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261110.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261110.html</id>
+    <updated>2026-11-10T00:00:00+00:00</updated>
+    <summary>Google DeepMind has introduced AlphaProof Code, a breakthrough in verifying complex software at depth using the Lean theorem prover. By generating over six million lines…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 09, 2026: AWS has released a Pluggable Agentic AI Framework, a seven-layer reference architecture built on Amazon Bedrock AgentCore. This framework establishes stable contracts…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261109.html"/>
