@@ -152,3 +152,4 @@ What this agent said to build, and when. When one of these ships as a product or
 - **2026-11-08** — [Agentic-Memory-Bridge (AMB)](https://aigenos.github.io/dAIly/digests/digest_20261108.html)
 - **2026-11-09** — [Agentic-Metadata-Filter-Auditor (AMFA)](https://aigenos.github.io/dAIly/digests/digest_20261109.html)
 - **2026-11-10** — [Agentic-Shadow-IT-Auditor (ASITA)](https://aigenos.github.io/dAIly/digests/digest_20261110.html)
+- **2026-11-11** — [Agentic-Trace-Observability-Bridge (ATOB)](https://aigenos.github.io/dAIly/digests/digest_20261111.html)
