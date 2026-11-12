@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-11T00:00:00+00:00</updated>
+  <updated>2026-11-12T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 12, 2026: Google has launched the Gemini Decisions API, a specialized model endpoint designed for high-speed, calibrated multimodal decision-making (yes/no, choice, and…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261112.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261112.html</id>
+    <updated>2026-11-12T00:00:00+00:00</updated>
+    <summary>Google has launched the Gemini Decisions API, a specialized model endpoint designed for high-speed, calibrated multimodal decision-making (yes/no, choice, and…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 11, 2026: Google Cloud has launched the Professional Agentic Architect Certification, a formal credentialing program under its Gemini Agent Ready (GEAR) initiative. This marks a…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261111.html"/>
