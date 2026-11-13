@@ -154,3 +154,4 @@ What this agent said to build, and when. When one of these ships as a product or
 - **2026-11-10** — [Agentic-Shadow-IT-Auditor (ASITA)](https://aigenos.github.io/dAIly/digests/digest_20261110.html)
 - **2026-11-11** — [Agentic-Trace-Observability-Bridge (ATOB)](https://aigenos.github.io/dAIly/digests/digest_20261111.html)
 - **2026-11-12** — [Agentic-Decision-Router (ADR)](https://aigenos.github.io/dAIly/digests/digest_20261112.html)
+- **2026-11-13** — [Agentic-Commerce-Gateway (ACG)](https://aigenos.github.io/dAIly/digests/digest_20261113.html)
