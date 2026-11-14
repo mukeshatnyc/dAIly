@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-13T00:00:00+00:00</updated>
+  <updated>2026-11-14T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 14, 2026: AWS Bedrock AgentCore Runtime V2 has introduced snapshot-based session restoration, effectively decoupling session initialization time from environment image size. For…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261114.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261114.html</id>
+    <updated>2026-11-14T00:00:00+00:00</updated>
+    <summary>AWS Bedrock AgentCore Runtime V2 has introduced snapshot-based session restoration, effectively decoupling session initialization time from environment image size. For…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 13, 2026: Google has launched Gemini 4 Hydrogen, the most cost-efficient model in the Gemini 4 family, accompanied by a new Orchestrator layer integrated directly into Google…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261113.html"/>
