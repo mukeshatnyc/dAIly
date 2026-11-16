@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-15T00:00:00+00:00</updated>
+  <updated>2026-11-16T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 16, 2026: OpenAI has launched computer-use agents for healthcare, a specialized deployment of their agentic stack designed to navigate complex, legacy healthcare software…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261116.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261116.html</id>
+    <updated>2026-11-16T00:00:00+00:00</updated>
+    <summary>OpenAI has launched computer-use agents for healthcare, a specialized deployment of their agentic stack designed to navigate complex, legacy healthcare software…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 15, 2026: Anthropic has upgraded Claude Code Projects to support parallel AI workers, enabling agents to execute multiple sub-tasks simultaneously within a single project context.…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261115.html"/>
