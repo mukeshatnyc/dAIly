@@ -158,3 +158,4 @@ What this agent said to build, and when. When one of these ships as a product or
 - **2026-11-14** — [Agentic-Federated-Collaboration-Orchestrator (AFCO)](https://aigenos.github.io/dAIly/digests/digest_20261114.html)
 - **2026-11-15** — [Agentic-Parallel-Reconciliation-Harness (APRH)](https://aigenos.github.io/dAIly/digests/digest_20261115.html)
 - **2026-11-16** — [Agentic-EHR-State-Bridge (AESB)](https://aigenos.github.io/dAIly/digests/digest_20261116.html)
+- **2026-11-17** — [Agentic-Kernel-Optimization-Harness (AKOH)](https://aigenos.github.io/dAIly/digests/digest_20261117.html)
