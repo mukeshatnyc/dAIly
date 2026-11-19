@@ -160,3 +160,4 @@ What this agent said to build, and when. When one of these ships as a product or
 - **2026-11-16** — [Agentic-EHR-State-Bridge (AESB)](https://aigenos.github.io/dAIly/digests/digest_20261116.html)
 - **2026-11-17** — [Agentic-Kernel-Optimization-Harness (AKOH)](https://aigenos.github.io/dAIly/digests/digest_20261117.html)
 - **2026-11-18** — [Agentic-CI-Review-Orchestrator (ACRO)](https://aigenos.github.io/dAIly/digests/digest_20261118.html)
+- **2026-11-19** — [Agentic-Object-Context-Extractor (AOCE)](https://aigenos.github.io/dAIly/digests/digest_20261119.html)
