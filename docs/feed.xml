@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-19T00:00:00+00:00</updated>
+  <updated>2026-11-20T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 20, 2026: Researchers have demonstrated that Language Models Can Rewrite Their Own Weights, a breakthrough that moves agentic systems beyond simple prompt-based reasoning into the…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261120.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261120.html</id>
+    <updated>2026-11-20T00:00:00+00:00</updated>
+    <summary>Researchers have demonstrated that Language Models Can Rewrite Their Own Weights, a breakthrough that moves agentic systems beyond simple prompt-based reasoning into the…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 19, 2026: Google DeepMind has introduced Gemini 4 Neon, a new middle-tier model designed to balance high-reasoning performance with the cost-efficiency required for high-volume…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261119.html"/>
