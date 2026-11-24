@@ -165,3 +165,4 @@ What this agent said to build, and when. When one of these ships as a product or
 - **2026-11-21** — [Agentic-KV-Cache-Orchestrator (AKVO)](https://aigenos.github.io/dAIly/digests/digest_20261121.html)
 - **2026-11-22** — [Agentic-Inference-Router-Gateway (AIRG)](https://aigenos.github.io/dAIly/digests/digest_20261122.html)
 - **2026-11-23** — [Agentic-Personal-Context-Bridge (APCB)](https://aigenos.github.io/dAIly/digests/digest_20261123.html)
+- **2026-11-24** — [Agentic-Tool-Schema-Firewall (ATSF)](https://aigenos.github.io/dAIly/digests/digest_20261124.html)
