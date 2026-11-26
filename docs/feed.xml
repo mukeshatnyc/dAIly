@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-25T00:00:00+00:00</updated>
+  <updated>2026-11-26T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 26, 2026: Together AI has released Hurdle, an open-source npm library designed to run agent evals against real-world APIs, skills, and documentation. By enabling developers to…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261126.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261126.html</id>
+    <updated>2026-11-26T00:00:00+00:00</updated>
+    <summary>Together AI has released Hurdle, an open-source npm library designed to run agent evals against real-world APIs, skills, and documentation. By enabling developers to…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 25, 2026: Google DeepMind has released Mass Spec Skills for Google Antigravity, a specialized agentic framework that enables models to interpret complex tandem mass spectra for…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261125.html"/>

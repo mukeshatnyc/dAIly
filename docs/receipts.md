@@ -167,3 +167,4 @@ What this agent said to build, and when. When one of these ships as a product or
 - **2026-11-23** — [Agentic-Personal-Context-Bridge (APCB)](https://aigenos.github.io/dAIly/digests/digest_20261123.html)
 - **2026-11-24** — [Agentic-Tool-Schema-Firewall (ATSF)](https://aigenos.github.io/dAIly/digests/digest_20261124.html)
 - **2026-11-25** — [Agentic-Data-Runtime-Middleware (ADRM)](https://aigenos.github.io/dAIly/digests/digest_20261125.html)
+- **2026-11-26** — [Agentic-API-Regression-Harness (ARH)](https://aigenos.github.io/dAIly/digests/digest_20261126.html)
