@@ -4,7 +4,14 @@
   <link href="https://aigenos.github.io/dAIly/"/>
   <link rel="self" href="https://aigenos.github.io/dAIly/feed.xml"/>
   <id>https://aigenos.github.io/dAIly/</id>
-  <updated>2026-11-26T00:00:00+00:00</updated>
+  <updated>2026-11-27T00:00:00+00:00</updated>
+  <entry>
+    <title>dAIly — November 27, 2026: Hugging Face has released Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems, a framework for managing multi-agent workflows. This resource…</title>
+    <link href="https://aigenos.github.io/dAIly/digests/digest_20261127.html"/>
+    <id>https://aigenos.github.io/dAIly/digests/digest_20261127.html</id>
+    <updated>2026-11-27T00:00:00+00:00</updated>
+    <summary>Hugging Face has released Swarms, Flocks, Gangs: How to build, train, and evaluate multi-agent systems, a framework for managing multi-agent workflows. This resource…</summary>
+  </entry>
   <entry>
     <title>dAIly — November 26, 2026: Together AI has released Hurdle, an open-source npm library designed to run agent evals against real-world APIs, skills, and documentation. By enabling developers to…</title>
     <link href="https://aigenos.github.io/dAIly/digests/digest_20261126.html"/>
