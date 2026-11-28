@@ -183,6 +183,51 @@ class TestSourceCoverage(unittest.TestCase):
         targets = " ".join(sources.WEB_SEARCH_TARGETS)
         self.assertIn("site:x.com", targets)
 
+    def test_pillar_release_feeds_fetched_deterministically(self):
+        # MCP/Skills/A2A news must not depend on web search finding it: the
+        # pillar repos' releases.atom feeds are fetched as primary sources.
+        from src import sources
+        pillars = [f for f in sources.RSS_FEEDS if f.category == "pillar"]
+        names = {f.name for f in pillars}
+        for must in ("MCP spec", "Agent Skills", "A2A protocol",
+                     "OpenAI Agents SDK", "Google ADK"):
+            self.assertIn(must, names)
+        for f in pillars:
+            self.assertTrue(f.url.endswith("/releases.atom"), f.url)
+
+    def test_pillar_items_rank_above_labs_and_survive_selection(self):
+        from datetime import datetime, timedelta, timezone
+        from src.enrich import _CATEGORY_BASE, priority_score
+        from src.fetchers import Item
+        self.assertGreater(_CATEGORY_BASE["pillar"], _CATEGORY_BASE["lab"])
+        now = datetime(2026, 11, 28, tzinfo=timezone.utc)
+        rel = Item("MCP spec", "pillar", "2026-11-26 spec release",
+                   "https://github.com/modelcontextprotocol/modelcontextprotocol/releases/tag/x",
+                   now - timedelta(days=2))
+        chat = Item("r/OpenAI (top/day)", "community", "Fun thread",
+                    "https://x/n", now)
+        self.assertGreater(priority_score(rel, now), priority_score(chat, now))
+        sel = analyzer._select_for_prompt([chat, rel], now)
+        self.assertEqual(sel[0].category, "pillar")
+
+    def test_pillar_bucket_rendered_first_in_prompt(self):
+        from datetime import datetime, timezone
+        from src.fetchers import Item
+        now = datetime(2026, 11, 28, tzinfo=timezone.utc)
+        items = [
+            Item("OpenAI", "lab", "Lab post", "https://x/l", now),
+            Item("MCP spec", "pillar", "v2026-11 release", "https://x/p", now),
+        ]
+        formatted = analyzer._format_items(items)
+        self.assertIn("AGENT-STACK PILLAR RELEASES", formatted)
+        self.assertLess(formatted.index("AGENT-STACK PILLAR RELEASES"),
+                        formatted.index("FRONTIER LABS"))
+
+    def test_architect_block_mandates_pillar_bucket_coverage(self):
+        instr = build_instructions()
+        self.assertIn("AGENT-STACK PILLAR RELEASES bucket", instr)
+        self.assertIn("cardinal failure", instr)
+
     def test_newsletter_authority_ranks_above_base(self):
         from src.enrich import _AUTHORITY, _CATEGORY_BASE
         self.assertGreater(_AUTHORITY["The Rundown AI"], _CATEGORY_BASE["newsletter"])

@@ -302,10 +302,15 @@ data/knowledge formats (Open Knowledge Format-class releases), and
 governance/eval standards. Per bullet: WHAT shipped (linked) with the layer it
 touches in [brackets], then <strong>Architect's take:</strong> adopt now /
 prototype / watch — one clause each on what it means for the developer
-implementing it and the architect/CIO deciding on it. These items rarely trend
-— search for them deliberately AND draw on your own knowledge of the agent
-ecosystem. If genuinely nothing shipped, write "no pillar or platform-stack
-movement today" — never pad, but never skip the block.
+implementing it and the architect/CIO deciding on it. The candidate list's
+AGENT-STACK PILLAR RELEASES bucket is primary-source ground truth: cover EVERY
+non-trivial entry there (minor/major releases, spec or registry changes) —
+web-search its changelog for what actually changed; silently skipping one is
+this block's cardinal failure. Only a trivial patch bump may be skipped. These
+items rarely trend — search for them deliberately AND draw on your own
+knowledge of the agent ecosystem. If genuinely nothing shipped, write "no
+pillar or platform-stack movement today" — never pad, but never skip the
+block.
 
 <h3>Benchmarks &amp; Evals</h3>
 What moved on LMSYS Arena, SWE-bench, GAIA, τ-bench, HumanEval, MMLU-Pro,
@@ -433,6 +438,7 @@ def build_instructions() -> str:
 # Per-source caps keep one chatty feed from dominating the prompt. Roomy enough
 # that the briefing can cover everything the top AI newsletters do.
 _PER_SOURCE_CAP = {
+    "pillar": 2,      # release feeds: latest couple of releases per project
     "lab": 4,
     "newsletter": 4,  # top newsletters run several high-detail stories per issue
     "infra": 3,       # standards often ship on infra blogs (e.g. Google Cloud)
@@ -482,12 +488,21 @@ def select_for_prompt(items: list[Item], now: datetime | None = None) -> list[It
 
 def _format_items(items: list[Item]) -> str:
     by_cat: dict[str, list[Item]] = {
-        "lab": [], "newsletter": [], "infra": [], "community": [], "research": [],
+        "pillar": [], "lab": [], "newsletter": [], "infra": [], "community": [],
+        "research": [],
     }
     for it in items:
         by_cat.setdefault(it.category, []).append(it)
 
     labels = {
+        "pillar": (
+            "AGENT-STACK PILLAR RELEASES (primary-source release feeds: MCP, "
+            "Agent Skills, A2A, Agents SDK, ADK, AX, LangGraph, AG-UI, vLLM — "
+            "ground truth, fresher than any newsletter. Every non-trivial entry "
+            "here MUST be covered in the Architect's block; only a trivial patch "
+            "bump may be skipped. Web-search each entry for its changelog/details "
+            "before writing it up)"
+        ),
         "lab": "FRONTIER LABS / TECH GIANTS",
         "newsletter": "NEWSLETTERS (AI engineer + research focused)",
         "infra": "AI INFRA / TOOLING VENDORS",
@@ -495,7 +510,7 @@ def _format_items(items: list[Item]) -> str:
         "research": "RESEARCH PAPERS (arXiv + HF Daily Papers; ▲ = community upvotes = must-read signal)",
     }
     blocks: list[str] = []
-    for cat in ("lab", "newsletter", "infra", "community", "research"):
+    for cat in ("pillar", "lab", "newsletter", "infra", "community", "research"):
         group = by_cat.get(cat) or []
         if not group:
             continue

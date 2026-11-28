@@ -25,7 +25,7 @@ from dataclasses import dataclass
 class Feed:
     name: str
     url: str
-    category: str  # "lab" | "newsletter" | "infra" | "community" | "research"
+    category: str  # "lab" | "newsletter" | "infra" | "pillar" | "community" | "research"
 
 
 # RSS/Atom feeds — only sources that returned HTTP 200 in production runs.
@@ -71,6 +71,22 @@ RSS_FEEDS: list[Feed] = [
     Feed("Google Cloud AI", "https://cloudblog.withgoogle.com/products/ai-machine-learning/rss/", "infra"),
     # NOTE: LlamaIndex, Pinecone, Weaviate, Modal don't expose stable RSS —
     # covered via WEB_SEARCH_TARGETS.
+
+    # ── Agent-stack PILLARS — primary sources, fetched deterministically ─────
+    # X.com is "first" on MCP/Skills/A2A because people there watch these repos;
+    # we watch the repos themselves. GitHub releases.atom is stable and needs no
+    # auth. Fail-open per feed; a repo with no releases just yields nothing.
+    Feed("MCP spec", "https://github.com/modelcontextprotocol/modelcontextprotocol/releases.atom", "pillar"),
+    Feed("MCP registry", "https://github.com/modelcontextprotocol/registry/releases.atom", "pillar"),
+    Feed("Agent Skills", "https://github.com/anthropics/skills/releases.atom", "pillar"),
+    Feed("A2A protocol", "https://github.com/a2aproject/A2A/releases.atom", "pillar"),
+    Feed("OpenAI Agents SDK", "https://github.com/openai/openai-agents-python/releases.atom", "pillar"),
+    Feed("Google ADK", "https://github.com/google/adk-python/releases.atom", "pillar"),
+    Feed("Google AX runtime", "https://github.com/google/ax/releases.atom", "pillar"),
+    Feed("LangGraph", "https://github.com/langchain-ai/langgraph/releases.atom", "pillar"),
+    Feed("Microsoft Agent Framework", "https://github.com/microsoft/agent-framework/releases.atom", "pillar"),
+    Feed("AG-UI protocol", "https://github.com/ag-ui-protocol/ag-ui/releases.atom", "pillar"),
+    Feed("vLLM", "https://github.com/vllm-project/vllm/releases.atom", "pillar"),
 
     # ── Community / where releases break first (all verified reachable) ──────
     Feed("r/LocalLLaMA (top/day)", "https://www.reddit.com/r/LocalLLaMA/top/.rss?t=day", "community"),

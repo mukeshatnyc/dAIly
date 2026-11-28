@@ -37,6 +37,10 @@ _AUTHORITY = {
     "Y Combinator Launches": 70,
 }
 _CATEGORY_BASE = {
+    # "pillar" = primary-source release feeds of the agent-stack protocols and
+    # SDKs (MCP, Skills, A2A, Agents SDK...). Ranked just below frontier labs so
+    # a pillar release reliably makes the prompt and the Top Stories cut.
+    "pillar": 85,
     "lab": 68, "research": 60, "newsletter": 55, "infra": 52, "community": 46,
 }
 
